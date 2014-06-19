@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three"> -->
 	
@@ -11,21 +12,38 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/boxing.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+		
 	</head>
-		<body>
-			<div id="container">
+	<body>
+		<div id="container">
+			<div class="page 1">
 				<div><img src="images/roomies320.png" alt="Roomies in Salem"></div>
-				<div>
-					<h1>I am Michael Joyce (on the right), avid tea drinker, novice rails developer, cryptocurrency fan, and couch astrophysicist.</h1>
-					<div class="twitter"><a href="https://twitter.com/emteajay"><i class="fa fa-twitter"></i>@emteajay</a></div>
-					
-				</div>
+				<div><h1>I am Michael Joyce (on the right), avid tea drinker, novice rails developer, cryptocurrency fan, and couch astrophysicist.</h1></div>
+				<div class="twitter"><a href="https://twitter.com/emteajay"><i class="fa fa-twitter"></i>@emteajay</a></div>
 			</div>
-		</body>
+			<div class="page 2">
+				<div><h1>Want to grab coffee in D.C.?</h1></div>
+				<div><h2>Fill out the info below and I'll get back to you</h2></div>
+				<form>
+					<input type="text" name="firstname" placeholder="Name"><br>
+					<input type="text" name="twitterhandle" placeholder="Twitter"><br>
+					<input type="text" name="email" placeholder="Email">
+					<input type="submit" class="button" value="Submit"></input>
+				</form>
+			
+
+
+			</div>
+
+		</div>
+	</body>
 	<script src="js/main.js"></script>
+	
+	
 </html>
 
 
