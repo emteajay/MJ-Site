@@ -95,7 +95,7 @@ input{
      width:100%;
 }
 
-.button{
+#ButtonSubmit{
      background-color:#ff6908;
      color: white;
      font-size: 20px;
@@ -107,6 +107,9 @@ input{
      text-align: center;
 }
 
+.hidden{
+     display: none;
+}
 /******************************************
 /* Responsive                   
 /*******************************************/

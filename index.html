@@ -29,13 +29,14 @@
 				<div><h1>Want to grab coffee in D.C.?</h1></div>
 				<div><h2>Fill out the info below and I'll get back to you</h2></div>
 				<form>
-					<input type="text" name="firstname" placeholder="Name"><br>
-					<input type="text" name="twitterhandle" placeholder="Twitter"><br>
-					<input type="text" name="email" placeholder="Email">
-					<input type="submit" class="button" value="Submit"></input>
+					<input id="Name" type="text" name="Name" placeholder="Name"><br>
+					<input id="Twitter" type="text" name="Twitter" placeholder="Twitter"><br>
+					<input id="Email" type="text" name="Email" placeholder="Email">
+					<!-- <type="submit" class="button" value="Submit"></input> -->
+					<div id="ButtonSubmit" onclick="postContactToGoogle()" type="button">Send</div>
 				</form>
 			
-
+			<div class="confirm hidden">High Five</div>
 
 			</div>
 
